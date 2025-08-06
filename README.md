@@ -13,17 +13,37 @@ A simple Python GUI to manage branches and pull multiple git repositories at onc
 - Remembers last-used directory
 - Cross-platform (Windows, Linux, macOS — Python 3 required)
 
+## 🚀 Download & Run
 
-## 🚀 Installation
+### Linux
 
-Requires Python 3.x  
-Tkinter is included by default in most Python installations.
+1. [Download the Linux binary from Releases](https://github.com/orinu/multi-repo-git-manager/releases/download/v1.0.0/git_manager-linux)
+2. In Terminal, run:
+    ```bash
+    chmod +x git_manager-linux
+    ./git_manager-linux
+    ```
+3. The GUI window will open!
 
-No install needed — just download the script and run:
+### macOS
 
-```bash
-python3 git_manager.py
-```
+1. [Download the Mac binary from Releases](https://github.com/orinu/multi-repo-git-manager/releases/download/v1.0.0/git_manager-mac)
+2. In Terminal, run:
+    ```bash
+    chmod +x git_manager-mac
+    ./git_manager-mac
+    ```
+   *(Or double-click the file. If you get a security warning, approve the app in System Preferences → Security & Privacy)*
+
+### Run from Source (Python)
+
+If you prefer to run the script:
+
+1. Make sure you have Python 3.x and Tkinter installed.
+2. Download `git_manager.py` and run:
+    ```bash
+    python3 git_manager.py
+    ```
 
 ## 🛠 Usage
 
@@ -34,7 +54,6 @@ python3 git_manager.py
 5. Click `Switch All Selected` to switch all repos.
 6. Click `Pull All` to run `git pull` in all repos.
 7. All output appears in the log at the bottom.
-
 
 ## 💡 Why?
 
@@ -49,5 +68,7 @@ See [LICENSE](LICENSE).
 ## 🤝 Contributing
 
 Pull requests, suggestions, and bug reports are welcome!
+
+---
 
 *Built with ❤️ using Python and Tkinter*

@@ -1,0 +1,4 @@
+build/
+dist/
+last_dir.txt
+git_manager.spec
