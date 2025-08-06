@@ -13,9 +13,6 @@ A simple Python GUI to manage branches and pull multiple git repositories at onc
 - Remembers last-used directory
 - Cross-platform (Windows, Linux, macOS — Python 3 required)
 
-## 📷 Screenshot
-
-*(Insert a screenshot or GIF here!)*
 
 ## 🚀 Installation
 
@@ -38,10 +35,6 @@ python3 git_manager.py
 6. Click `Pull All` to run `git pull` in all repos.
 7. All output appears in the log at the bottom.
 
-## ⚡ Example
-
-![screenshot](screenshot.png)  
-*(You can add your own screenshot!)*
 
 ## 💡 Why?
 
